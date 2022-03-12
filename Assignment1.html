@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PATIENT'S RECORD</title>
+    </head>
+    <body>
+        <form action="Save.Php" method="get">
+            <label><b>PATIENT NAME</b></label>
+            <input type="patient name"/>
+            <br>
+            <table style="border:1px solid rgb(216,219,217);">
+                <tr>
+            <td><label><b><th>Bio</th></b></label></td>
+            <tr>
+            <td><label>GENDER</label></td>
+            <td><input type="radio" name="gender"/>Male</td>
+            <td><input type="radio" name="gender"/>Female</td>
+            <td><input type="radio" name="gender"/>Others</td>
+            </tr>
+            <tr>
+            <td><label>AGE</label></td>
+            <td><input type="radio" name="age"/>0-12yrs</td>
+            <td><input type="radio" name="age"/>13-19yrs</td>
+            <td><input type="radio" name="age"/>20-35yrs</td>
+            <td><input type="radio" name="age"/>>35yrs</td>
+            </tr>
+            </table>
+            <br>
+            <table style="border:1px solid rgb(216,219,217);">
+                <tr>
+            <td><label><b>Blood Pressure</b></label></td>
+                </tr>
+            <br>
+            <td><label>Systolic (mmHg)</label></td>
+            <td><input type="Systolic (mmHg)"/></td>
+            <td><label>Diastolic (mmHg)</label></td>
+            <td><input type="Diastolic (mmHg)"/></td>
+            </table>
+            <br>
+            <table style="border:1px solid rgb(216,219,217);">
+                <tr>
+            <td><label><b>Body Mass Index</b></label></td>
+                </tr>
+            <br>
+            <td><label>Weight (Kgs)</label></td>
+            <td><input type="Weight (Kgs)"/></td>
+            <td><label>Height (Meters)</label></td>
+            <td><input type="Height (Meters)"></td>
+            </table>
+            <center>
+            <br>
+            <tr>
+                <table style="border:1px solid rgb(216,219,217);">
+                    <tr>
+            <td><label>Status</label></td>
+            </tr>
+            <td><input type="status" name="status" value="Generate"/></td>
+            <td><input type="status" name="status" value="Delete"></td>
+            </tr>
+        </table>
+            </center>
+            <br>
+            <textarea name="coments" cols="100" rows="5"></textarea>
+        </form>
+    </body>
+</html>
